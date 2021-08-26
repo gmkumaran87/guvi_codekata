@@ -31,3 +31,8 @@ if (output.length > 0) {
 } else {
     console.log(-1);
 }
+
+// Easiest way to find the INDEX
+const indexOfStd = marks.findIndex((el) => el === mathsMark);
+
+console.log(indexOfStd);
